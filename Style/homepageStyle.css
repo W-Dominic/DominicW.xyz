@@ -1,0 +1,49 @@
+:root{
+	--fore:#efe9f0;/* white */
+	--back:#4c566a;/* grey/blue */
+}
+body {
+	background-color:var(--fore); 
+}
+#Banner{
+	text-align: center;
+	font-size: 200%;
+	background-image:url(../Images/arctic.gif);
+	background-size:100%;
+	background-repeat:no-repeat;
+	color:var(--fore);
+	margin-left:5%;
+	margin-right:5%;
+	padding:300px;
+}
+#AboutMe{
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 5px;
+	background-color:var(--back);
+	color:var(--fore);
+
+}
+.flexbox-container {
+	display:flex;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color:var(--back);
+	align-items:center;
+}
+.flexbox-item {
+	text-align:center;
+	margin:10px;
+	background-color:var(--fore);
+	color:var(--back);
+	flex-grow:1;
+}
+	.CTF {
+		min-height:200px;
+	}
+	.Coding {
+		min-height:200px;
+	}
+	.Cars {
+		min-height:200px;
+	}
