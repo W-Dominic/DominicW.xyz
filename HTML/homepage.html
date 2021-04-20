@@ -4,33 +4,36 @@
 	<title>Dominicw.xyz</title>
 
 <link rel="stylesheet" type="text/css" href="../Style/homepageStyle.css">
-<script src="../Bloat/homepageBloat.js"></script>
 </head>
 <body>
 	<main>
 	<div id="Banner">
-		<header><p><b>Dominic Wojewodka</b></p></header>
+		<p><b>Dominic Wojewodka</b></p>
 	</div>
 
 	<div id="AboutMe">
-		<h3>About</h3>
+		<header><h3>About Me</h3></header>
+		<img src="../Images/me.JPG" class="meIMG"></img>
 		<p>Hello, my name is Dominic Wojewodka and I am currently a sophomore at Stevens Institute of Technology in Hoboken NJ. I am persuing a Bachelors of Science in Cyber Security. This website is a collection of my CTF writeups, as well as documentation of some of my personal projects.</p>
-		<p>*Insert image of myself on the right side*</p>
+		<p>You can also find me at these links:</p>
+		<li><a href="https://www.github.com/W-Dominic">Github: github.com/W-Dominic</a></li>
+		<li><a href="https://www.linkedin.com/in/dominic-wojewodka-43519018b/">Linkedin</a></li>
+		<li>Email: dwojewod@stevens.edu</li>
+		<li>Alternate Email: media.Dom0_o@protonmail.com</li>
 	</div>
 	
 	<div class="flexbox-container">
-		<div class="flexbox-item CTF">
+		<div class="flexbox-item CTF" onmouseenter="highlight(this)" onmouseleave="normal(this)">
 			<h3>CTF Writeups</h3>
-			<p>insert image of laptop</p>
 		</div>
-		<div class="flexbox-item Coding">
+		<div class="flexbox-item Coding" onmouseenter="highlight(this)" onmouseleave="normal(this)">
 			<h3>Coding Projects</h3>
-			<p>insert image of pc</p>
 		</div>
-		<div class="flexbox-item Cars">
+		<div class="flexbox-item Cars" onmouseenter="highlight(this)" onmouseleave="normal(this)">
 			<h3>Car Projects</h3>
-			<p>insert image of car</p>
 		</div>
 	</div>
 	</main>
 </body>
+<script src="../Bloat/homepageBloat.js"></script>
+</html>
