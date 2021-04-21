@@ -17,12 +17,13 @@ header {
 	color:var(--fore);
 	text-decoration:underline;
 }
-a {
-	text-decoration:underline;
+button {
+	font-size: 170%;
 	color:var(--fore);
-}
-li {
-	margin-left: 20%;
+	background-color:var(--back);
+	padding:10px;
+	border: 2px solid var(--fore);
+	border-radius:5px;
 }
 #Banner{
 	text-align: center;
@@ -36,8 +37,8 @@ li {
 #AboutMe{
 	border-bottom:2px solid grey;
 	font-size:150%;
-	padding-left:100px;
-	padding-right:100px;
+	padding-left:20%;
+	padding-right:20%;
 	padding-top:50px;
 	padding-bottom:250px;
 	background-color:var(--back);
@@ -48,6 +49,8 @@ li {
 	height:400px;
 	width:200px;
 	float:right;
+	border:1px solid var(--fore);
+	border-radius: 5px;
 }
 .flexbox-container {
 	display:flex;
@@ -58,7 +61,6 @@ li {
 .flexbox-item {
 	text-align:center;
 	margin:10px;
-	background-color:var(--fore);
 	color:var(--fore);
 	font-size:200%;
 	flex-grow:1;
