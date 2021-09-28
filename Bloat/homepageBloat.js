@@ -7,6 +7,7 @@ function normal(x){
 function invertColor(x){
 	//since the css was defined in an external file we need to use getComputedStyle() to get the value
 	var color = window.getComputedStyle(x,null).getPropertyValue("color");
+	//alert(color);
 	if (color === "rgb(239, 233, 240)"){ 
 		console.log(color);
 		x.style.color = "var(--back)";

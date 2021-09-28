@@ -1,0 +1,35 @@
+:root{
+	--fore:#efe9f0;/* white */
+	--back:#4c566a;/* grey/blue */
+	--darkGrey:#2E3440;
+}
+body {
+	background-color:var(--fore); 
+}
+button {
+	font-size: 170%;
+	color:var(--fore);
+	background-color:var(--back);
+	padding:10px;
+	border: 2px solid var(--fore);
+	border-radius:5px;
+}
+
+a {
+	text-decoration:none;
+	color:var(--fore);
+}
+.container {
+	box-shadow:0px 0px 30px grey;
+	background-color:var(--back);
+	padding-top: 10px;
+}
+.col {
+	text-align:center;
+	height:300px;
+}
+.row {
+	align:center;
+}
+
+
