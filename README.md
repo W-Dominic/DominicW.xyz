@@ -1,14 +1,13 @@
 Dominic Wojewodka
 Personal Website
-04/19/2021
+10/4/2021
 
 TODO: 
 
 	Homepage:
-		change links to cool looking buttons
-		update pictures and main gif
-		homepage button / nav bar
-
+		fix responsiveness of particles 
+		add links
 	Other:
-		begin adding in CTF writeups	
+		begin adding in CTF writeups
+		begin adding in project information	
 	
