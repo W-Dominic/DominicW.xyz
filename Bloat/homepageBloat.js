@@ -8,12 +8,12 @@ function invertColor(x){
 	//since the css was defined in an external file we need to use getComputedStyle() to get the value
 	var color = window.getComputedStyle(x,null).getPropertyValue("color");
 	//alert(color);
-	if (color === "rgb(239, 233, 240)"){ 
+	if (color === "rgb(0, 255, 255)"){ 
 		console.log(color);
 		x.style.color = "var(--back)";
 		x.style.backgroundColor = "var(--fore)";
 	}
-	else if (color === "rgb(76, 86, 106)"){	
+	else if (color === "rgb(26, 26, 26)"){	
 		console.log(color);
 		x.style.color = "var(--fore)";
 		x.style.backgroundColor = "var(--back)";
