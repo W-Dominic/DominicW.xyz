@@ -15,6 +15,17 @@ button {
 a {
 	text-decoration:none;
 }
+img {
+	max-height: 90%;
+	max-width: 90%;
+}
+h2 {
+	margin-top: 100px;
+	margin-left: 30px;
+}
+p {
+	margin-left: 30px;
+}
 .container-fluid {
 	/*
 	 box-shadow:0px 0px 30px grey;
@@ -28,10 +39,11 @@ a {
 }
 
 .col {
-	text-align:center;
+	text-align:start;
 	background-color:var(--customGrey);
 	height: 100%;
-	border-bottom: 2px solid var(--fore);
+	border: 2px solid var(--fore);
+	font-size: 150%;
 }
 #navbar {
 	background-color:var(--back);
@@ -45,4 +57,14 @@ a {
 	background-color:var(--back);
 	margin-top: 65px;
 	height: 75px;
+}
+#me {
+	margin-top: 30px;
+}
+#animation1 {
+	height:900px;
+}
+#animation2 {
+	background-color:var(--back);
+	text-align:center;	
 }
