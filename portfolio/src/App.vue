@@ -44,7 +44,7 @@
           <q-tabs align="center">
             <q-btn-group push>
               <q-btn push size="20px" label="Github" icon="bi-github" href="https://github.com/W-Dominic" />
-              <q-btn push size="20px" label="LinkedIn" icon="bi-linkedin" href="https://www.linkedin.com/in/dominic-wojewodka-43519018b/" />
+              <q-btn push size="20px" label="LinkedIn" icon="bi-linkedin" href="https://www.linkedin.com/in/dominic-wojewodka/" />
             </q-btn-group>
           </q-tabs>
         </q-toolbar-title>
