@@ -25,14 +25,14 @@
     </q-header>
 
     <q-page-container>
-      <q-parallax :height="1000" :speed="0.5">
+      <q-parallax :height="2000" :speed="0.5">
       <template v-slot:media>
         <img src="./assets/Images/antelope1.jpeg">
       </template>
       <h2 class="text-white">
         Hi, I'm Dominic
       </h2>
-      <q-chip size="20px" icon="bi-cpu" color="primary" text-color="white">Software Engineering Intern @ Brigade Capital Management</q-chip>
+      <q-chip size="20px" icon="bi-cpu" color="primary" text-color="white">Incoming TechOps Intern @ Jump Trading</q-chip>
       <br>
       <q-chip size="20px" icon="bi-book" color="secondary" text-color="white">Cybersecurity Major & Computer Science Minor at Stevens Institute of Technology</q-chip>
       </q-parallax>
