@@ -17,4 +17,4 @@ CMD ["nginx", "-g", "daemon off;"]
 
 #To run this container:
 # docker build -t portfolio:prod .
-# docker run -p 80:80 --name portfolio portfolio:prod
+# docker run -d -p 3000:80 --name portfolio portfolio:prod
